@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">PGAPP</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_registered_email">Enter Registered Email</string>
+    <string name="phone_number">phone_number</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="email">Email</string>
+    <string name="slide_1">Slide 1</string>
+    <string name="title_activity_innerview">innerview</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="your_pg_flat_details"><![CDATA[Your PG & Flat Details]]></string>
+    <string name="upload_your_own_pg_0r_flat">Upload Your Own Pg 0r Flat</string>
+    <string name="register">Register</string>
+    <string name="mobile_no">Mobile No.</string>
+    <string name="complete_address">Complete Address</string>
+    <string name="enter_pg_0r_flat_name">Enter PG 0r Flat name</string>
+    <string name="upload">UPLOAD</string>
+    <string name="image2">image2</string>
+    <string name="image1">image1</string>
+
+
+</resources>

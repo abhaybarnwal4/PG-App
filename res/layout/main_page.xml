@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainpage">
+
+
+
+   <Button
+       android:layout_width="100dp"
+       android:layout_height="60dp"
+       android:text="Upload your PG"
+       android:textColor="#C60909"
+       android:id="@+id/btn_et"
+       android:backgroundTint="#ABDFD0"
+       android:layout_marginLeft="300dp"
+
+       android:layout_marginTop="10dp"
+       />
+
+   <ViewFlipper
+       android:layout_width="match_parent"
+       android:layout_height="240dp"
+       android:flipInterval="1500"
+       android:autoStart="true"
+       android:layout_marginTop="90dp"
+       android:inAnimation="@android:anim/slide_in_left"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+      >
+
+      <ImageView
+          android:contentDescription="@string/image1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:src="@drawable/image1"/>
+
+
+      <ImageView
+          android:contentDescription="@string/image2"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:src="@drawable/image2"/>
+
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:src="@drawable/image4"/>
+
+
+
+   </ViewFlipper>
+
+   <ViewFlipper
+       android:id="@+id/viewflipper1"
+       android:layout_width="match_parent"
+       android:layout_height="140dp"
+       android:inAnimation="@anim/nav_default_pop_enter_anim"
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       android:layout_marginTop="460dp"
+       android:flipInterval="1000"
+       android:autoStart="true">
+
+
+<ImageButton
+    android:id="@+id/image12"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:background="@drawable/advertise"
+   />
+
+
+      <ImageButton
+
+          android:id="@+id/image13"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+         android:background="@drawable/adver4"
+         />
+
+
+
+   </ViewFlipper>
+
+
+
+
+
+
+
+
+   <ViewFlipper
+       android:layout_below="@id/viewflipper1"
+       android:layout_width="match_parent"
+       android:layout_height="150dp"
+       android:inAnimation="@anim/nav_default_exit_anim"
+
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       android:layout_marginTop="80dp"
+       android:flipInterval="1000"
+       android:autoStart="true">
+
+
+      <ImageButton
+          android:id="@+id/image14"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@drawable/advertise2"
+          />
+
+
+      <ImageButton
+
+          android:id="@+id/image15"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@drawable/advert3"
+          />
+
+
+
+   </ViewFlipper>
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".upload_details"
+    android:background="#86D1CB">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/upload"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginRight="140dp"
+        />
+
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/your_pg_flat_details"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginRight="39dp"/>
+
+
+
+    <EditText
+        android:layout_below="@id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_pg_0r_flat_name"
+        android:id="@+id/name_et"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        />
+
+
+    <EditText
+        android:layout_below="@id/name_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/complete_address"
+        android:id="@+id/address_et"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        />
+
+
+
+    <EditText
+        android:layout_below="@id/address_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mob_et"
+        android:hint="@string/mobile_no"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mob_et"
+        android:id="@+id/reg_btn"
+        android:textColor="@color/black"
+        android:text="@string/register"
+        android:backgroundTint="@color/teal_700"
+        android:layout_margin="20dp"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reg_btn"
+        android:id="@+id/show_btn"
+        android:textColor="@color/black"
+        android:text="show"
+        android:backgroundTint="@color/teal_700"
+        android:layout_margin="20dp"
+        />
+
+</RelativeLayout>
